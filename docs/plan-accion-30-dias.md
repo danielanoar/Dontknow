@@ -13,8 +13,12 @@
 | Alcance | Plataforma **general** (cualquier servicio) |
 | Ciudad inicial | Madrid |
 | Ingresos | Comisión sobre el servicio (abierto a combinar con otros modelos) |
-| Recursos | Tú solo, pocas horas, programación con IA, presupuesto limitado |
-| Ventaja propia | Conoces por dentro la **automoción** (talleres y recambios) |
+| Categoría de arranque | **Reparación y mantenimiento de coches** (confirmado) |
+| Dedicación | ~5 h/semana |
+| Presupuesto inicial | **50 €** |
+| Recursos | Tú solo, programación con IA |
+| Ventaja propia | Eres **dueño de Áncora** (recambios): conoces talleres, precios y márgenes por dentro |
+| Regla ética | **No usar datos de clientes de Áncora.** Los talleres de la prueba se buscan fuera de tu cartera |
 
 ---
 
@@ -32,7 +36,9 @@ Una plataforma "de todo" no puede lanzarse con todo a la vez. Con pocas horas y 
 - **Tickets adecuados para cobrar comisión** (entre 80 y 1.000 €).
 - **Hueco en el mercado.** Los comparadores de talleres que existen se centran en precios cerrados de servicios estándar. "Describe tu avería y recibe ofertas" está mucho menos cubierto.
 
-> ⚠️ **Antes de nada:** revisa tu contrato con Áncora (exclusividad, no competencia, uso de contactos de clientes). No utilices datos ni listados de clientes de la empresa para este proyecto. Que tu propio conocimiento del sector sea tu ventaja es legítimo, y que el proyecto se aproveche de la cartera de tu empresa te podría traer problemas.
+> **Sobre Áncora:** como dueño no hay conflicto contractual. Aun así, mantenemos separados los datos de los clientes de Áncora y los talleres de la plataforma: los talleres se buscan en Google Maps y a puerta fría, y nunca se usa tu base de datos. A largo plazo existe una sinergia clara (los talleres de la plataforma necesitan recambios), pero eso es para más adelante.
+>
+> **Competencia directa a estudiar:** Tallerator (casi el mismo modelo inverso para talleres), Autingo (precio cerrado + reserva), GestiRep, Reparamiauto y la sección de talleres de coches.com. Hay que comprobar cuáles siguen activos y por qué no han dominado el mercado. Ver `semana-1-kit.md`.
 
 ---
 
@@ -78,27 +84,26 @@ En la fase 1 no se programa nada: tú haces a mano lo que luego hará la web. As
 
 ---
 
-## 5. Plan semana a semana (pensado para ~5–8 h/semana)
+## 5. Plan semana a semana (~5 h/semana, 50 € en total)
 
 ### Semana 1 — Definir y preguntar
-- [ ] Revisar el contrato con Áncora (ver aviso arriba).
-- [ ] Pasarme el dossier y ajustar este documento.
-- [ ] Analizar 3–4 competidores (talleres y servicios generales): cómo cobran y qué quejas tienen en sus reseñas.
-- [ ] **5 entrevistas a conductores** (familia, amigos, compañeros): ¿cómo eligieron el último taller?, ¿qué les preocupó?, ¿pagarían por adelantado a través de una web?
-- [ ] **5 conversaciones con talleres** (independientes, no de cadena): ¿cuántos clientes nuevos quieren?, ¿cuánto pagarían por uno?, ¿aceptarían una comisión del 10 %?
+- [ ] Pasarme el dossier y ajustar este documento (30 min).
+- [ ] Probar como cliente 2 competidores (Tallerator y Autingo) con una avería real o inventada, y apuntar la experiencia (1,5 h).
+- [ ] **5 entrevistas a conductores** (familia, amigos; 15 min cada una): ¿cómo eligieron el último taller?, ¿qué les preocupó?, ¿pagarían por adelantado a través de una web?
+- [ ] **3–5 conversaciones con talleres que NO sean clientes de Áncora**: ¿cuántos clientes nuevos quieren?, ¿cuánto pagarían por uno?, ¿aceptarían una comisión del 10 %?
 - **Entregable:** notas de entrevistas + 3 conclusiones.
 
 ### Semana 2 — Guion del proyecto
-- [ ] Nombre provisional y dominio.
+- [ ] Nombre provisional y dominio .es (~10 €).
 - [ ] Definir el **flujo completo**: el cliente pide → los talleres ofertan → el cliente elige → paga la señal → se hace el trabajo → reseña.
 - [ ] Lista de categorías futuras (automoción → hogar → ...) con orden de apertura.
 - [ ] Modelo de ingresos elegido y números básicos: cuánto gana la plataforma por trabajo y cuántos trabajos al mes hacen falta para cubrir costes.
 - **Entregable:** documento "Guion del proyecto" v1.
 
 ### Semana 3 — Prueba manual en pequeño
-- [ ] Landing con formulario: "Describe qué le pasa a tu coche y recibe presupuestos de talleres de Madrid".
+- [ ] Landing (Carrd gratis o ~19 €/año) con formulario Tally gratis: "Describe qué le pasa a tu coche y recibe presupuestos de talleres de Madrid".
 - [ ] Apuntar **8–10 talleres** que acepten recibir peticiones por WhatsApp.
-- [ ] Difundir entre conocidos, grupos de barrio y redes. Objetivo: **5–10 peticiones reales**.
+- [ ] Difundir **sin pagar anuncios**: conocidos, grupos de WhatsApp/Facebook de barrio, Wallapop/Milanuncios, redes. Objetivo: **5–10 peticiones reales**.
 - [ ] Gestionar cada petición a mano y apuntar los resultados.
 - **Entregable:** hoja de peticiones con resultados (¿hubo ofertas?, ¿en cuánto tiempo?, ¿se contrató?).
 
@@ -109,6 +114,14 @@ En la fase 1 no se programa nada: tú haces a mano lo que luego hará la web. As
 - **Entregable:** Guion del proyecto v2 + hoja de ruta.
 
 ---
+
+### Presupuesto (50 €)
+| Concepto | Coste |
+|---|---|
+| Dominio .es | ~10 € |
+| Landing (Carrd Pro, opcional) | ~19 €/año |
+| Formularios, hojas de cálculo, WhatsApp Business | 0 € |
+| Reserva (flyers, imprevistos) | ~20 € |
 
 ## 6. Señales de que vamos bien (al final del mes)
 - Al menos la mitad de los talleres contactados quieren recibir peticiones.
